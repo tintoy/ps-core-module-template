@@ -1,0 +1,18 @@
+{
+  "author": "Adam Friedman (tintoy@tintoy.io)",
+  "classifications": [
+    "Common",
+    "PowerShell"
+  ],
+  "name": "PowerShell Core module",
+  "identity": "tintoy.powershell.core.module",
+  "shortName": "ps-core-module",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sourceName": "PSModule",
+  "guids": [],
+  "preferNameDirectory": true,
+  "primaryOutputs": [ { "path": "PSModule.csproj" } ]
+}

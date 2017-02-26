@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+  	<AssemblyName>PSModule</AssemblyName>
+  	<DefaultNamespace>PSModule</DefaultNamespace>
+
+    <TargetFramework>netstandard1.6</TargetFramework>
+
+    <!-- Required by Powershell Core v6.0.0-alpha13 -->
+    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+  </PropertyGroup>
+
+  <!-- Powershell Core v6.0.0-alpha13 -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="6.0.0-alpha13"/>
+    <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.3-beta-24514-00"/>
+  </ItemGroup>
+</Project>
