@@ -14,5 +14,7 @@
   "sourceName": "PSModule",
   "guids": [],
   "preferNameDirectory": true,
-  "primaryOutputs": [ { "path": "PSModule.csproj" } ]
+  "primaryOutputs": [
+    { "path": "PSModule.csproj" }
+  ]
 }

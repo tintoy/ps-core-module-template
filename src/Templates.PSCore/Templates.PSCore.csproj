@@ -2,7 +2,7 @@
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
 		<PackageVersion>0.1-alpha1</PackageVersion>
-		<PackageId>Tintoy.Templates.PSCore</PackageId>
+		<PackageId>FiftyProtons.Templates.PSCore</PackageId>
 		<Title>PowerShell Core templates</Title>
 		<Authors>tintoy</Authors>
 		<Description>PowerShell Core templates for "dotnet new".</Description>
