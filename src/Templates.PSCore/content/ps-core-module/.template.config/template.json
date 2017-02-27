@@ -14,7 +14,13 @@
   "sourceName": "PSModule",
   "guids": [],
   "preferNameDirectory": true,
-  "primaryOutputs": [
+  "PrimaryOutputs": [
     { "path": "PSModule.csproj" }
+  ],
+  "PostActions": [
+    {
+      "Description": "Restore packages",
+      "ActionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025"
+    }
   ]
 }
