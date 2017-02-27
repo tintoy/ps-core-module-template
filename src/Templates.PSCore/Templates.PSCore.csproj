@@ -9,7 +9,7 @@
 		<Tags>powershell;powershell-core;dotnet-new;templates</Tags>
 
 		<PackageProjectUrl>https://github.com/tintoy/ps-core-module-template</PackageProjectUrl>
-        <PackageLicenseUrl>https://raw.githubusercontent.com/tintoy/ps-core-module-template/development/r1.0/LICENSE</PackageLicenseUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/tintoy/ps-core-module-template/master/LICENSE</PackageLicenseUrl>
 
         <RepositoryType>git</RepositoryType>
         <RepositoryUrl>https://github.com/tintoy/ps-core-module-template</RepositoryUrl>
