@@ -1,11 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
-		<PackageVersion>0.1-alpha1</PackageVersion>
+		<PackageVersion>0.1-alpha2</PackageVersion>
 		<PackageId>FiftyProtons.Templates.PSCore</PackageId>
 		<Title>PowerShell Core templates</Title>
 		<Authors>tintoy</Authors>
 		<Description>PowerShell Core templates for "dotnet new".</Description>
+		<Tags>powershell;powershell-core;dotnet-new;templates</Tags>
+
+		<PackageProjectUrl>https://github.com/tintoy/ps-core-module-template</PackageProjectUrl>
+        <PackageLicenseUrl>https://raw.githubusercontent.com/tintoy/ps-core-module-template/development/r1.0/LICENSE</PackageLicenseUrl>
+
+        <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/tintoy/ps-core-module-template</RepositoryUrl>
+
 		<ContentTargetFolders>content</ContentTargetFolders>
 		<IncludeContentInPack>true</IncludeContentInPack>
 		<IncludeBuildOutput>false</IncludeBuildOutput>
