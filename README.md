@@ -4,7 +4,7 @@ A `dotnet new` template that creates a project for a binary PowerShell module.
 
 ## Getting started
 
-1. `dotnet new -i FiftyProtons.Templates.PSCore`
+1. `dotnet new -i FiftyProtons.Templates.PSCore::*`
 2. `mkdir MyModule; cd MyModule`
 3. `dotnet new ps-core-module`
 4. `dotnet restore`
