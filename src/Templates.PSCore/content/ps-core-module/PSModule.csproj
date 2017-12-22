@@ -3,15 +3,10 @@
   	<AssemblyName>PSModule</AssemblyName>
   	<DefaultNamespace>PSModule</DefaultNamespace>
 
-    <TargetFramework>netstandard1.6</TargetFramework>
-
-    <!-- Required by Powershell Core v6.0.0-alpha13 -->
-    <NetStandardImplicitPackageVersion>1.6.1</NetStandardImplicitPackageVersion>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
 
-  <!-- Powershell Core v6.0.0-alpha13 -->
   <ItemGroup>
-    <PackageReference Include="Microsoft.PowerShell.SDK" Version="6.0.0-alpha13"/>
-    <PackageReference Include="Microsoft.NETCore.Portable.Compatibility" Version="1.0.3-beta-24514-00"/>
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="6.0.0-rc.2"/>
   </ItemGroup>
 </Project>

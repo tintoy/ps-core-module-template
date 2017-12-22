@@ -1,11 +1,10 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<PackageType>Template</PackageType>
-		<PackageVersion>0.1-alpha2</PackageVersion>
 		<PackageId>FiftyProtons.Templates.PSCore</PackageId>
 		<Title>PowerShell Core templates</Title>
 		<Authors>tintoy</Authors>
-		<Description>PowerShell Core templates for "dotnet new".</Description>
+		<Description>PowerShell Core (RC2 or higher) templates for "dotnet new".</Description>
 		<Tags>powershell;powershell-core;dotnet-new;templates</Tags>
 
 		<PackageProjectUrl>https://github.com/tintoy/ps-core-module-template</PackageProjectUrl>
@@ -25,6 +24,8 @@
 
 		<TargetFramework>netstandard1.6</TargetFramework>
 	</PropertyGroup>
+
+	<Import Project="../../VersionInfo.props" />
 
 	<ItemGroup>
 		<Content Include="content/**/*.*" />

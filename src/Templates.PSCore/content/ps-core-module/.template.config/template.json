@@ -4,7 +4,7 @@
     "Common",
     "PowerShell"
   ],
-  "name": "PowerShell Core module",
+  "name": "PowerShell Core module (RC2)",
   "identity": "tintoy.powershell.core.module",
   "shortName": "ps-core-module",
   "tags": {
