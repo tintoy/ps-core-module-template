@@ -6,7 +6,7 @@ _Targets PowerShell Core v6.0.0-rc.2 or higher._
 
 ## Getting started
 
-1. `dotnet new -i FiftyProtons.Templates.PSCore::0.2.0-*`
+1. `dotnet new -i FiftyProtons.Templates.PSCore`
 2. `mkdir MyModule; cd MyModule`
 3. `dotnet new ps-core-module`
 4. `dotnet restore`
