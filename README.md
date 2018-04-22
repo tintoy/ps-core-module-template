@@ -2,7 +2,7 @@
 
 A `dotnet new` template that creates a project for a binary PowerShell module.
 
-_Targets PowerShell Core v6.0.0-rc.2 or higher._
+_Targets PowerShell Core v6.0.0 or higher._
 
 ## Getting started
 

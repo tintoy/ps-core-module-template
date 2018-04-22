@@ -4,7 +4,7 @@
 		<PackageId>FiftyProtons.Templates.PSCore</PackageId>
 		<Title>PowerShell Core templates</Title>
 		<Authors>tintoy</Authors>
-		<Description>PowerShell Core (RC2 or higher) templates for "dotnet new".</Description>
+		<Description>PowerShell Core templates for "dotnet new".</Description>
 		<Tags>powershell;powershell-core;dotnet-new;templates</Tags>
 
 		<PackageProjectUrl>https://github.com/tintoy/ps-core-module-template</PackageProjectUrl>
